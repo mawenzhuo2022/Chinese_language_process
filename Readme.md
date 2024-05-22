@@ -36,9 +36,10 @@ pip install scikit-learn
 
 ## 使用说明 Usage
 
-要使用 `chinese_text_preprocessor`，首先需要用适当的配置实例化它。
+使用说明 Usage
+要使用 chinese_text_preprocessor 预处理数据库数据，请确保您的数据已存放在 /dat/raw_data/testdata.csv 中。该文件应该包含原始文本数据。接着，直接运行 main.py 文件，程序将自动读取数据文件，对其中的文本进行预处理，并将处理结果存储到 /dat/words_set/words_set.csv 中。处理后的数据文件将包含两列：原问题和处理后的词汇集。
 
-To use the `chinese_text_preprocessor`, you must first instantiate it with appropriate configurations.
+To use the chinese_text_preprocessor to preprocess database data, ensure your data is stored in /dat/raw_data/testdata.csv. This file should contain the original text data. Then, simply run the main.py file. The program will automatically read the data file, preprocess the text within, and save the processed results to /dat/words_set/words_set.csv. The processed data file will include two columns: the original questions and the processed sets of words.
 
 运行 `main.py` 文件，程序将提示您输入文本，输入后按回车即可看到处理结果，结果将被打印在日志里。
 
