@@ -8,7 +8,7 @@ import re
 import logging
 import csv
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
-from typing import Set, Tuple, List
+from typing import Set, Tuple
 
 # 配置日志，方便调试和查看程序运行状态
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
